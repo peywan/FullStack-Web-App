@@ -41,7 +41,6 @@ const EmpEdit = () => {
     e.preventDefault();
     const empdata = { id, name, email, phone, active };
 
-
     // Send the updated employee data to the server
     fetch("http://localhost:8000/employee/" + empid, {
       method: "PUT",
@@ -62,7 +61,7 @@ const EmpEdit = () => {
   return (
     <div>
       <div className='row'>
-        <div className='offset-lg-3 col-lg-6'>
+        <div className='offset-lg-0 col-lg-12'>
           <form className='container' onSubmit={handlesubmit}>
             <div className='card' style={{ textAlign: "left" }}>
               <div className='card-title'>
@@ -120,19 +119,6 @@ const EmpEdit = () => {
                         onChange={(e) => phonechange(e.target.value)}
                         className='form-control'
                       ></input>
-                    </div>
-                  </div>
-
-                  {/* Employee active status input */}
-                  <div className='col-lg-12'>
-                    <div className='form-check'>
-                      <input
-                        checked={active}
-                        onChange={(e) => activechange(e.target.checked)}
-                        type='checkbox'
-                        className='form-check-input'
-                      ></input>
-                      <label className='form-check-label'>Is Active</label>
                     </div>
                   </div>
 
