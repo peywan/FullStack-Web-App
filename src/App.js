@@ -1,33 +1,34 @@
-//import
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./custom.scss";
-import EmpListing from "./listing";
-import EmpCreate from "./create";
-import EmpDetail from "./detail";
-import EmpEdit from "./edit";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import "./custom.css";
 
-/**
- * Renders the application.
- *
- * @returns {JSX.Element} The top-level React element for the application.
- */
+import EmployeeList from "./listing";
+import CreateEmployee from "./create";
+import EmployeeDetail from "./detail";
+import EditEmployee from "./edit";
+
 function App() {
   return (
-    <div className='App'>
-      <BrowserRouter>
-        <h1>Welcome to the employees portal!</h1>
-        <Routes>
-          <Route path='/' element={<EmpListing />} />
-          <Route path='/employee/create' element={<EmpCreate />} />
-
-          <Route path='/employee/detail/:empid' element={<EmpDetail />} />
-
-          <Route path='/employee/edit/:empid' element={<EmpEdit />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <>
+      <Router>
+        <div className='bg-dark pt-5' style={{ height: "100%" }}>
+          <div className='container'>
+            <h1 className='bg-dark pt-5'>Welcome to the employees portal!</h1>
+            <Routes>
+              <Route path='/' element={<EmployeeList />} />
+              <Route path='/employee/create' element={<CreateEmployee />} />
+              <Route
+                path='/employee/detail/:empid'
+                element={<EmployeeDetail />}
+              />
+              <Route path='/employee/edit/:empid' element={<EditEmployee />} />
+            </Routes>
+          </div>
+        </div>
+      </Router>
+    </>
   );
 }
 

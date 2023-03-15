@@ -1,9 +1,9 @@
 // Import necessary libraries and components
 import React from "react";
-import ReactDOM from "react-dom/client";
-import './custom.scss';
+import ReactDOM from "react-dom/client"; //Fix: changed module import path
+import "./custom.css";
 import App from "./App";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/scss/bootstrap.scss";
 
 // Create a root to render the React application
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -15,4 +15,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
- 

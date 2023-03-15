@@ -1,2 +1,11 @@
-//import bootstrap styles 
-@import 'bootstrap/scss/bootstrap.scss';
+// This file is used to override Bootstrap variables and add custom styles
+  $primary: #000000;
+  $secondary: #317cbd;
+  $success: #d95151;
+  $info: #d95151;
+  $warning: #d95151;
+  $danger: #d95151;
+  $light: #337bc3;
+  $dark: #23ff32;
+
+@import '~bootstrap/scss/bootstrap.scss';

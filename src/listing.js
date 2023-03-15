@@ -43,16 +43,16 @@ const EmpListing = () => {
     <div className='container'>
       <div className='card'>
         <div className='card-title'>
-          <h2>Employee Listing</h2>
+          <h2 className='m-2 text-center'>Employee Listing</h2>
         </div>
         <div className='card-body'>
           <div className='divbtn'>
-            <Link to='employee/create' className='m-3 btn btn'>
+            <Link to='employee/create' className='btn btn-success'>
               Click here to add employee
             </Link>
           </div>
-          <table className='table table-bordered'>
-            <thead className='bg-dark text-white'>
+          <table className='table  table-responsive '>
+            <thead className='text-black fw-bold h4'>
               <tr>
                 <td>ID</td>
                 <td>Name</td>

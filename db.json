@@ -53,11 +53,10 @@
       "active": true
     },
     {
-      "name": "jose mourinho ",
+      "id": 10,
+      "name": "Jose Mourinho ",
       "email": "jose.m@gmail.com",
-      "phone": "0047860120",
-      "active": true,
-      "id": 10
+      "phone": "0047860120"
     },
     {
       "name": "peywan",
@@ -67,46 +66,11 @@
       "id": 11
     },
     {
-      "name": "peywan sabir",
-      "email": "peywan1999@icloud.com",
-      "phone": "0704656455",
-      "active": true,
-      "id": 12
-    },
-    {
-      "name": "ok",
-      "email": "ok",
-      "phone": "123",
-      "active": true,
-      "id": 13
-    },
-    {
-      "name": "s",
+      "name": "0999",
       "email": "",
-      "phone": "s",
-      "active": true,
-      "id": 14
-    },
-    {
-      "name": "asdasd",
-      "email": "asdasd",
       "phone": "",
       "active": true,
-      "id": 15
-    },
-    {
-      "name": "peywan sabir",
-      "email": "peywan1999@icloud.com",
-      "phone": "0704656455",
-      "active": true,
-      "id": 16
-    },
-    {
-      "name": "peywan sabir",
-      "email": "peywan1999@icloud.com",
-      "phone": "0704656455",
-      "active": true,
-      "id": 17
+      "id": 12
     }
   ]
 }
