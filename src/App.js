@@ -1,6 +1,7 @@
 //import
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./custom.scss";
 import EmpListing from "./listing";
 import EmpCreate from "./create";
 import EmpDetail from "./detail";
