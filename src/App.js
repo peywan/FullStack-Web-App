@@ -15,7 +15,6 @@ function App() {
       <Router>
         <div className='bg-dark'>
           <div className='container'>
-            <h1 className='bg-dark'>Welcome to the employees portal!</h1>
             <Routes>
               <Route path='/' element={<EmployeeList />} />
               <Route path='/employee/create' element={<CreateEmployee />} />
