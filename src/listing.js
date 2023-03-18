@@ -43,7 +43,7 @@ const EmpListing = () => {
     <div className='container'>
       <div className='card'>
         <div className='card-title'>
-          <h2 className='m-2 text-center'>Employee Listing</h2>
+          <h2 className='m-2 text-center'>Welcome to the employee listing</h2>
         </div>
         <div className='card-body'>
           <div className='divbtn'>

@@ -5,8 +5,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -15,7 +14,7 @@
 }
 
 .App-link {
-  color: #0800ff;
+  color: #ff0000;
 }
 body {
   margin: 0;

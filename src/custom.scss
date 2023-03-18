@@ -1,11 +1,15 @@
 // This file is used to override Bootstrap variables and add custom styles
   $primary: #000000;
   $secondary: #317cbd;
-  $success: #d95151;
-  $info: #d95151;
-  $warning: #d95151;
-  $danger: #d95151;
+  $danger: #ff0000;
   $light: #337bc3;
-  $dark: #23ff32;
+  $dark: #323572;
+  $body-bg: #ff7c7c;
+  $body-color: #000000;
+  $font-family-sans-serif: 'Roboto', sans-serif;
+
+  container {
+    background: url('https://www.google.se/url?sa=i&url=https%3A%2F%2Fblog.vantagecircle.com%2Femployee-management%2F&psig=AOvVaw0Na0dZUyJTWEmcp0hX6Vb_&ust=1679073732718000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjw4Zz74P0CFQAAAAAdAAAAABAD')
+  }
 
 @import '~bootstrap/scss/bootstrap.scss';

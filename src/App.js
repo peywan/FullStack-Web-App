@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import "./custom.css";
+import "./custom.scss";
 
 import EmployeeList from "./listing";
 import CreateEmployee from "./create";
@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Router>
-        <div className='bg-dark pt-5' style={{ height: "100%" }}>
+        <div className='bg-dark'>
           <div className='container'>
-            <h1 className='bg-dark pt-5'>Welcome to the employees portal!</h1>
+            <h1 className='bg-dark'>Welcome to the employees portal!</h1>
             <Routes>
               <Route path='/' element={<EmployeeList />} />
               <Route path='/employee/create' element={<CreateEmployee />} />
